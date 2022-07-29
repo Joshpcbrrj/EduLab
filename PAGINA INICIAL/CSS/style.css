@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body {
+    width:100%;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    background-color: #392F5A;
+    height: 4rem;
+    position: relative;
+    background: linear-gradient(-45deg, #241e1e, #392F5A, #59429d);
+    background-size: 200% 200%;
+    animation: backgroundTransition 8s ease-in-out infinite;
+}
+
+.titulo-galeria h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    margin-left: 15%;
+    margin-bottom: 0.4rem;
+    color: #FFF8F0;
+    background-color: #FF8811;
+    border-radius: 5px;
+    width: 95%;
+    
+}
+
+.btn-1 {
+    position: absolute;
+    width: 12%;
+    height: 50%;
+    top: 30%;
+    left: 10%;
+    border-radius: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-2 {
+    position: absolute;
+    width: 12%;
+    height: 50%;
+    top: 30%;
+    left: 30%;
+    border-radius: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-cadastro{
+    position: absolute;
+    width: 12%;
+    height: 50%;
+    top: 30%;
+    left: 50%;
+    border-radius: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.change:hover {
+    background-color: #F4D06F;
+    transition: all 300ms ease-in-out;
+    color: #FFF8F0;
+}
+
+
+.logo {
+    position: relative;
+    display: inline-block;
+    left: 80%;
+    width: 10%;
+    top: -45%;
+}
+
+.logo-image {
+    width: 100%;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+    background-color: #F4D06F;
+    
+}
+
+.foto-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    position: relative;
+    left: 15%;
+    
+}
+
+.foto-galeria {
+    width: 100%
+}
+
+img {
+    border-radius: 10px;
+}
+
+.lado-esquerdo {
+    margin: 0.8rem;
+    width: 55%;
+    text-align: center;
+    
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FF8811;
+    width: 30%;
+    position: relative;
+    left: 12.5%;
+}
+
+.login h2 {
+    margin-top: 5rem;
+}
+
+.password{
+    display: block;
+    width: 83%;
+    margin-left: 10%;
+    margin-top: 0.8rem;
+    background: #D9D9D9;
+    padding: 0.4rem;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #59429d;
+}
+
+.entrada{
+    display: block;
+    width: 83%;
+    margin-left: 10%;
+    margin-top: 0.8rem;
+    background: #D9D9D9;
+    padding: 0.4rem;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #59429d;
+}
+
+.entrar{
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 0.8rem;
+    border-radius: 9px;
+    background: #D9D9D9;
+    padding: 0.4rem;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #59429d;
+    cursor: pointer;
+}
+
+
+.dados {
+    margin: 0.8rem;
+}
+
+.redes-login {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.redes-sociais {
+    margin: 0.8rem;
+}
+
+
+.btn-3{
+    margin-bottom: 0.8rem;
+    width: 90%;
+    padding: 0.4rem;
+    margin-left: 7%;
+    background: #D9D9D9;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #59429d;
+    
+}
+
+p {
+    border-top: 1px solid;
+    margin-top: 1rem;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    
+}
+
+.btn-4 {
+    margin-bottom: 0.8rem;
+    width: 90%;
+    padding: 0.4rem;
+    margin-left: 7%;
+    background: #0095f6;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #59429d;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn-4 a {
+    text-decoration: none;
+    color: #FFF8F0;
+
+}
+
+footer {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    padding: 0.6rem;
+}
+
+footer a {
+    margin-right: 0.6rem;
+}
+
+
+
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+    
+}
