@@ -11,4 +11,5 @@ Posteriomente será anexado as paginas que completa este projeto:
 * Meu estudo
 * Diario
 
-
+Link do notion com mais informações sobre a equipe e o projeto
+* https://evanescent-quail-679.notion.site/Hackaton-StartSe-ff0374d3787c4d1db49e819c5fa12b32
